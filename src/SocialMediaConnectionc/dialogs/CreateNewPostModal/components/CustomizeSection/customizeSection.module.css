@@ -1,0 +1,18 @@
+.customizeSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 8px;
+}
+
+.visibilityIcon {
+    display: flex;
+    cursor: pointer;
+}
+
+.visibilityIcon svg {
+    width: 18px;
+    height: 18px;
+}

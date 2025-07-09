@@ -1,0 +1,78 @@
+.disconnectDialogModalContent {
+  width: max-content;
+  max-width: 100%;
+}
+
+.trashIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff0f1;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.trashIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.modalTitle {
+  color: #262626;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.modalDescription {
+  color: #757575;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.modalActionsWrap {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.disconnectBtn {
+  border: none;
+  background-color: #ff2d38;
+  color: #fefefe;
+}
+
+.disconnectBtn:hover {
+  border: none;
+  background-color: #ff2d38;
+}
+
+.disconnectBtn:active {
+  padding: 11px 16px;
+  border: none;
+  background-color: #ff2d38;
+}
+
+.disconnectBtn:disabled {
+  color: #b0b0b0;
+  background-color: #f6f6f6;
+}
+
+@media screen and (max-width: 480px) {
+  .disconnectDialogModalContent {
+    padding: 20px;
+  }
+  .modalActionsWrap {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .modalActionsWrap button{
+    width: 100%;
+  }
+}

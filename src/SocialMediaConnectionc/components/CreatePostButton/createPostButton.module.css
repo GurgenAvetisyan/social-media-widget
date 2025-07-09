@@ -1,0 +1,25 @@
+.createPostButtonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  gap: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 3px 26px 0px rgba(192, 192, 192, 0.25);
+  margin-top: 24px;
+  min-width: 200px;
+  font-size: 14px;
+  color: #2B1F0A;
+}
+
+@media (max-width: 320px) {
+  .createPostButtonWrap {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .createPostButtonWrap button {
+    width: 100%;
+  }
+}

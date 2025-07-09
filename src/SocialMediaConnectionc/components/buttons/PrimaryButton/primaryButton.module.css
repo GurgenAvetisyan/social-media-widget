@@ -1,0 +1,42 @@
+.primaryButton {
+  color: #262626;
+  background-color: #fcd917;
+  border: none;
+  border-radius: 6px;
+  font-family: "Open Sans";
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 11px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primaryButton:hover {
+  background-color: #ffcc1b;
+}
+
+.primaryButton.loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.loaderPrimaryBtn span {
+  border: 3px solid #b0b0b0;
+  border-bottom-color: #4f4f4f;
+}
+
+.primaryButton:disabled {
+  color: #b0b0b0;
+  background-color: #fff2d5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.primaryButton:active {
+  padding: 9px 14px;
+  border: 2px solid #ffcc1b;
+}

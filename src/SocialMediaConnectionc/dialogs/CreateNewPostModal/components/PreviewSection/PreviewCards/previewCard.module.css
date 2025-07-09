@@ -1,0 +1,132 @@
+ .previewCardWrap {
+     width: auto;
+     min-height: 274px;
+     border-radius: 8px;
+     padding: 12px;
+     border: 1px solid #E7E7E7;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap: 8px;
+ }
+
+ .avatar {
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+
+ .name {
+     color: #000;
+     font-size: 12px;
+     font-weight: 700;
+     line-height: 17px;
+ }
+
+ .name span {
+     color: #B0B0B0;
+     font-size: 10px;
+     line-height: 17px;
+     font-weight: 400;
+     margin-left: 2px;
+ }
+
+ .createdDate {
+     color: #B0B0B0;
+     font-size: 10px;
+     line-height: 17px;
+ }
+
+
+ .postContent {
+     color: #000;
+     font-size: 10px;
+     line-height: 17px;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     -webkit-line-clamp: 3;
+ }
+
+ .postImg {
+     width: 100%;
+     max-height: 132px;
+     object-fit: cover;
+ }
+
+ .iconWrap {
+     display: flex;
+     align-items: center;
+     gap: 6px;
+     color: #4F4F4F;
+     font-size: 10px;
+     line-height: 17px;
+ }
+
+ .iconWrap svg {
+     display: flex;
+     width: 14px;
+     height: 14px;
+ }
+
+ .separatorPoint {
+     width: 3px;
+     height: 3px;
+     border-radius: 50%;
+     background-color: #B0B0B0;
+ }
+
+ .divider {
+     width: 100%;
+     border-bottom: 1px solid #E7E7E7;
+ }
+
+ .secondaryText {
+     color: #B0B0B0;
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 17px;
+ }
+
+ .centeredSpaceBetween {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .centeredWithGap {
+     display: flex;
+     align-items: center;
+     gap: 8px
+ }
+
+ .centeredWithSmallGap {
+     display: flex;
+     align-items: center;
+     gap: 6px
+ }
+
+ .facebookCardName {
+     margin-bottom: 2px;
+ }
+
+ .instagramPostContent {
+     -webkit-line-clamp: 2;
+ }
+
+ .instagramCatdName span {
+     margin-left: 5px;
+ }
+
+ .linkedinCardName {
+     margin-bottom: 2px;
+ }
+
+ .twitterHeaderRightBox {
+     display: flex;
+     align-items: center;
+     gap: 4px;
+     margin-bottom: 2px;
+ }

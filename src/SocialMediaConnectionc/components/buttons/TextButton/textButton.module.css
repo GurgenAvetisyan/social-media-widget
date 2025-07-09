@@ -1,0 +1,29 @@
+.textButton {
+    background: none;
+    text-align: center;
+    color: #007B94;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+}
+
+.textButton:hover {
+    color: #0B687F;
+}
+
+.textButton:disabled {
+    color: #B0B0B0;
+    cursor: default;
+    pointer-events: none;
+}
+
+.textButton:active {
+    border-radius: 6px;
+    border-color: #E7E7E7;
+    background-color: #F6F6F6;
+}

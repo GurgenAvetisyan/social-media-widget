@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Integrations SDK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="./dev/sdk.js"></script>
+  </head>
+
+  <body>
+    <div id="myContainer"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        window.MS.init("#myContainer", {
+          secretKey: "",
+          clientSecret: "",
+          source: 1,
+          token: "",
+        });
+      });
+    </script>
+  </body>
+</html>

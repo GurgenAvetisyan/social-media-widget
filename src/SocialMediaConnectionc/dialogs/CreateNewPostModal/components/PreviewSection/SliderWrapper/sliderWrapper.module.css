@@ -1,0 +1,52 @@
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 24px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    opacity: 0;
+    position: absolute;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    transition: opacity 0.5s ease;
+    animation-duration: 0.5s;
+}
+
+.slide.active {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.slide-in-right {
+    animation-name: slideInRight;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-in-left {
+    animation-name: slideInLeft;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

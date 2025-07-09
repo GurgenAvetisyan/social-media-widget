@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.saocialMediaConnectionWidget {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Open Sans";
+    font-style: normal;
+    line-height: normal;
+}
+
+.socialProvidersWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}

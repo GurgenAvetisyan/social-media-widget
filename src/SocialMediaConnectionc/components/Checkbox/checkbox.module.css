@@ -1,0 +1,46 @@
+.checkboxContainer input[type="checkbox"] {
+    display: none;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-left: 32px;
+    color: #757575;
+}
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    border: 2px solid #B0B0B0;
+    border-radius: 2px;
+}
+
+.checkboxContainer input:checked+.checkmark {
+    background-color: #007B94;
+    border-color: #007B94;
+}
+
+.checkboxContainer .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkboxContainer input:checked+.checkmark:after {
+    display: block;
+}
+
+.checkboxContainer .checkmark:after {
+    left: 4px;
+    top: 2px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
